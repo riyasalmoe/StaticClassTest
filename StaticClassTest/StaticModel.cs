@@ -13,6 +13,10 @@ namespace StaticClassTest
 
     public class Test
     {
+
+        public string F1 { get; set; } = StaticModel.fieldOne;
+        public string F2 { get; set; } = StaticModel.fieldTwo;
+
         public Test()
         {
             StaticModel.fieldOne = "FieldOne Value Changed";
